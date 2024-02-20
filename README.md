@@ -26,3 +26,16 @@ To edit this repository in MakeCode.
 ## Block for screen led in line
 
 ### Add functionality to turn on leds indivudually but in sequence. 
+
+## Usage
+
+### ``plotAt``
+
+Use the ``plotAt`` to address LEds and turn it on.
+
+```blocks
+for(let i = 0; i < 25; i++){
+    screenMagic.plotAt(i);
+    basic.pause(200);
+}
+```
